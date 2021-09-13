@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VR_Overlay_Dice_Roller.exe" version="0.1.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sy2k1zqtHRvD2Vb+AkU1bVGPQtpcQG688GaN7z4kdE8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Images\VR_Overlay_Dice_Roller_Background.png" size="90635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>djFJctM5z72byTqKczpXDnFi6ETcqi9ACdeB21BxZDk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_Coin.png" size="9131">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mm5SEPN8lAOaI3Z/d6TCVUh62nVnN/4vibvh5+59CoE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d10.png" size="16526">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+JHWzg/e+afICSDSFLfKYE+nxTBUDoPQItH1eL3wy7U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d100.png" size="14238">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OuC3m13gw8FEsMnDINjsjgJLxbTeBvuSvz3tkWK2+f8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d12.png" size="15643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jave7O1ZFttYrE6pBYDKcZl2So3TdpvO2BZmeABAmrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_D20.png" size="19719">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2nxVF4z5iJfHrxXcqMi7hXfmqBb1miEn45XyqJGzXhM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d4.png" size="10310">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wf5x2YYZ0iWdwlrFhePKJqO1AFhWYYOmK93apBCp0kY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d6.png" size="6088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oXijxjyV8AtYSHxzwBB/vlOsZb8vwsxBT8xl/kmGZiE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Vr_Overlay_dice_roller_d8.png" size="13444">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ezMHIYvlFEsFqwlZFz8o9zni+7Afzu9vYuQdgtXbQ0k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VR_Overlay_Dice_Roller.deps.json" size="458">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F9CnnXnYQ773Z+Zw0DL+35t5FaxR5j07KGNQG1CVsJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VR_Overlay_Dice_Roller.dll" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hlHrIE/+dBODUW6vgi8uEWMQeLGT0lwY/Z4t0HnG2hI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VR_Overlay_Dice_Roller.exe" size="174592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>thSEGNWGSuUX2dF305H/Xu6IHMmp6CWzrsevsrsJlKE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VR_Overlay_Dice_Roller.runtimeconfig.json" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JEdMwGltKlJ/VjUDCkPZtJsOaZOrS/AfPDPsNBMwP+0=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
