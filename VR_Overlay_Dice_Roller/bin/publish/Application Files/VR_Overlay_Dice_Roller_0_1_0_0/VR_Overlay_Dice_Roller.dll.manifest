@@ -143,22 +143,22 @@
       <dsig:DigestValue>F9CnnXnYQ773Z+Zw0DL+35t5FaxR5j07KGNQG1CVsJo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VR_Overlay_Dice_Roller.dll" size="16384">
+  <file name="VR_Overlay_Dice_Roller.dll" size="15872">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>hlHrIE/+dBODUW6vgi8uEWMQeLGT0lwY/Z4t0HnG2hI=</dsig:DigestValue>
+      <dsig:DigestValue>tmkS96JZslXjs9e5Ffzn4pwgxYJUOBmx4Hievb8Q5bQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VR_Overlay_Dice_Roller.exe" size="174592">
+  <file name="VR_Overlay_Dice_Roller.exe" size="174080">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>thSEGNWGSuUX2dF305H/Xu6IHMmp6CWzrsevsrsJlKE=</dsig:DigestValue>
+      <dsig:DigestValue>81uXCsAZsDl4ToVYZeKocN6ibw3R7tSbYmu8bQxTu/4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VR_Overlay_Dice_Roller.runtimeconfig.json" size="161">
