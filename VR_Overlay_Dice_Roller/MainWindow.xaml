@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VR_Overlay_Dice_Roller"
         mc:Ignorable="d"
-        Title="VR Overlay Dice Roller" Height="673" Width="400" ResizeMode="NoResize">
+        Title="VR Overlay Dice Roller" Height="673" Width="400" ResizeMode="NoResize" Icon="/Images/Vr_Overlay_Dice_Roller_Icon.ico">
     <Window.Background>
         <ImageBrush ImageSource="/Images/VR_Overlay_Dice_Roller_Background.png"/>
     </Window.Background>

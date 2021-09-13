@@ -4,6 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\Vr_Overlay_Dice_Roller_Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
     <None Remove="Images\Vr_Overlay_dice_roller_d4.png" />
     <None Remove="Images\Vr_Overlay_dice_roller_d6.png" />
     <None Remove="Images\Vr_Overlay_dice_roller_d8.png" />
+    <None Remove="Images\Vr_Overlay_Dice_Roller_Icon.ico" />
     <None Remove="VR_Overlay_Dice_Roller_Background.png" />
   </ItemGroup>
 
@@ -45,6 +47,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Vr_Overlay_dice_roller_d8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Vr_Overlay_Dice_Roller_Icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
